@@ -29,7 +29,7 @@
 This repository is a PyTorch official code of the paper [MBA: Multimodal Benchmark and Agents for Real-World Business Ideation](https://arxiv.org/abs/2608.11616).
 
 ## News & Updates
-  <!-- - [x] **[2026/06/18]** ✈️ Our paper is accepted to ECCV 2026! -->
+  - [x] **[2026/08/14]** We provide an interactive [Gradio demo](https://huggingface.co/spaces/hchoi256/mba-business-ideation-agent) here. 🙇 Special thanks to **Apolinário Passos (Poli)** from **Hugging Face** for building this interactive demo — [Hugging Face](https://huggingface.co/multimodalart) · [X](https://x.com/apolinariosteps) · [LinkedIn](https://www.linkedin.com/in/apolinario/)<!-- - [x] **[2026/06/18]** ✈️ Our paper is accepted to ECCV 2026! -->
   - [x] **[2026/08/12]** 📝 Our paper is now available! The paper is released [here](https://arxiv.org/abs/2608.11616).
   - [x] **[2026/08/12]** 🧑‍💻 Our code is released!
 
