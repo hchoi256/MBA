@@ -356,5 +356,13 @@ Our code is strongly based on [GPT-4o](https://arxiv.org/pdf/2410.21276). We sin
 ## Citation
 
 ```bibtex
-TBD
+@misc{choi2026mbamultimodalbenchmarkagents,
+      title={MBA: Multimodal Benchmark and Agents for Real-World Business Ideation}, 
+      author={Hojun Choi and Jaeyo Shin and Suin Lee and Hyunjung Shim},
+      year={2026},
+      eprint={2608.11616},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2608.11616}, 
+}
 ```
