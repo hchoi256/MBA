@@ -1,0 +1,10 @@
+# Build context is the small repro directory only.
+*.tar.gz
+*.zip
+__pycache__/
+*.pyc
+.git/
+pip-freeze-observed.txt
+conda-environment-observed.yml
+torch-collect-env-observed.txt
+python-imports-observed.txt

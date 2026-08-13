@@ -1,0 +1,57 @@
+name: mba
+channels:
+  - pytorch
+  - nvidia
+  - defaults
+dependencies:
+  - python=3.10.13
+  - pip=23.3.1
+  - pytorch=2.2.0
+  - torchvision=0.17.0
+  - torchaudio=2.2.0
+  - pytorch-cuda=12.1
+  - pip:
+      - transformers==4.45.2
+      - tokenizers==0.20.1
+      - huggingface_hub==0.36.2
+      - accelerate==1.13.0
+      - peft==0.19.1
+      - safetensors==0.8.0
+      - bitsandbytes==0.43.3
+      - timm==0.9.12
+      - numpy==1.26.4
+      - pillow==12.2.0
+      - scipy==1.15.3
+      - scikit-learn==1.7.2
+      - sentence-transformers==5.5.1
+      - faiss-cpu==1.7.4
+      - nltk==3.9.4
+      - spacy==3.8.14
+      - rank-bm25==0.2.2
+      - pysqlite-binary==0.5.1.3380300
+      - openai==2.41.1
+      - einops==0.8.2
+      - sentencepiece==0.2.1
+      - protobuf==6.33.6
+      - tqdm==4.68.2
+      - packaging==26.2
+      - regex==2026.5.9
+      - requests==2.34.2
+      - urllib3==2.7.0
+      - filelock==3.29.4
+      - fsspec==2026.4.0
+      - Jinja2==3.1.6
+      - networkx==3.4.2
+      - sympy==1.14.0
+      - typing_extensions==4.15.0
+      - PyYAML==6.0.3
+      - joblib==1.5.3
+      - threadpoolctl==3.6.0
+      - cmake==4.3.2
+      - ninja==1.13.0
+      - gdown==6.0.0
+      - fire==0.7.1
+      - wikiextractor==3.0.6
+      - en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl#sha256=1932429db727d4bff3deed6b34cfc05df17794f4a52eeb26cf8928f7c1a0fb85
+# Install flash-attn only after this environment is active:
+# MAX_JOBS=8 TORCH_CUDA_ARCH_LIST=8.6 python -m pip install --no-build-isolation flash-attn==2.5.9.post1

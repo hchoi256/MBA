@@ -1,0 +1,82 @@
+$ 
+python '/workspace/mba_env_20260616_202924/check_imports.py'
+
+===== Python =====
+executable: /opt/conda/bin/python
+version: 3.10.13 (main, Sep 11 2023, 13:44:35) [GCC 11.2.0]
+prefix: /opt/conda
+base_prefix: /opt/conda
+platform: Linux-6.8.0-111-generic-x86_64-with-glibc2.35
+
+===== Imports =====
+torch                    version=2.2.0              file=/opt/conda/lib/python3.10/site-packages/torch/__init__.py
+torchvision              version=0.17.0             file=/opt/conda/lib/python3.10/site-packages/torchvision/__init__.py
+torchaudio               version=2.2.0              file=/opt/conda/lib/python3.10/site-packages/torchaudio/__init__.py
+transformers             version=4.45.2             file=/home/hchoi/.local/lib/python3.10/site-packages/transformers/__init__.py
+tokenizers               version=0.20.1             file=/home/hchoi/.local/lib/python3.10/site-packages/tokenizers/__init__.py
+huggingface_hub          version=0.36.2             file=/home/hchoi/.local/lib/python3.10/site-packages/huggingface_hub/__init__.py
+accelerate               version=1.13.0             file=/home/hchoi/.local/lib/python3.10/site-packages/accelerate/__init__.py
+peft                     version=0.19.1             file=/home/hchoi/.local/lib/python3.10/site-packages/peft/__init__.py
+safetensors              version=0.8.0              file=/home/hchoi/.local/lib/python3.10/site-packages/safetensors/__init__.py
+bitsandbytes             version=0.43.3             file=/home/hchoi/.local/lib/python3.10/site-packages/bitsandbytes/__init__.py
+flash_attn               version=2.5.9.post1        file=/home/hchoi/.local/lib/python3.10/site-packages/flash_attn/__init__.py
+timm                     version=0.9.12             file=/home/hchoi/.local/lib/python3.10/site-packages/timm/__init__.py
+numpy                    version=1.26.4             file=/home/hchoi/.local/lib/python3.10/site-packages/numpy/__init__.py
+PIL                      version=12.2.0             file=/home/hchoi/.local/lib/python3.10/site-packages/PIL/__init__.py
+scipy                    version=1.15.3             file=/home/hchoi/.local/lib/python3.10/site-packages/scipy/__init__.py
+sklearn                  version=1.7.2              file=/home/hchoi/.local/lib/python3.10/site-packages/sklearn/__init__.py
+sentence_transformers    version=5.5.1              file=/home/hchoi/.local/lib/python3.10/site-packages/sentence_transformers/__init__.py
+faiss                    version=1.7.4              file=/home/hchoi/.local/lib/python3.10/site-packages/faiss/__init__.py
+nltk                     version=3.9.4              file=/home/hchoi/.local/lib/python3.10/site-packages/nltk/__init__.py
+spacy                    version=3.8.14             file=/home/hchoi/.local/lib/python3.10/site-packages/spacy/__init__.py
+rank_bm25                version=0.2.2              file=/home/hchoi/.local/lib/python3.10/site-packages/rank_bm25.py
+pysqlite3                version=<unknown>          file=/home/hchoi/.local/lib/python3.10/site-packages/pysqlite3/__init__.py
+openai                   version=2.41.1             file=/home/hchoi/.local/lib/python3.10/site-packages/openai/__init__.py
+einops                   version=0.8.2              file=/home/hchoi/.local/lib/python3.10/site-packages/einops/__init__.py
+sentencepiece            version=0.2.1              file=/home/hchoi/.local/lib/python3.10/site-packages/sentencepiece/__init__.py
+google.protobuf          version=6.33.6             file=/home/hchoi/.local/lib/python3.10/site-packages/google/protobuf/__init__.py
+packaging                version=26.2               file=/home/hchoi/.local/lib/python3.10/site-packages/packaging/__init__.py
+
+===== PyTorch details =====
+torch: 2.2.0
+torch.version.cuda: 12.1
+CUDA available: True
+GPU count: 8
+cuDNN: 8902
+NCCL: (2, 19, 3)
+{"index": 0, "name": "NVIDIA RTX A6000", "total_memory": 50897289216, "major": 8, "minor": 6, "multi_processor_count": 84}
+{"index": 1, "name": "NVIDIA RTX A6000", "total_memory": 50897289216, "major": 8, "minor": 6, "multi_processor_count": 84}
+{"index": 2, "name": "NVIDIA RTX A6000", "total_memory": 50897289216, "major": 8, "minor": 6, "multi_processor_count": 84}
+{"index": 3, "name": "NVIDIA RTX A6000", "total_memory": 50897289216, "major": 8, "minor": 6, "multi_processor_count": 84}
+{"index": 4, "name": "NVIDIA RTX A6000", "total_memory": 50897289216, "major": 8, "minor": 6, "multi_processor_count": 84}
+{"index": 5, "name": "NVIDIA RTX A6000", "total_memory": 50897289216, "major": 8, "minor": 6, "multi_processor_count": 84}
+{"index": 6, "name": "NVIDIA RTX A6000", "total_memory": 50897289216, "major": 8, "minor": 6, "multi_processor_count": 84}
+{"index": 7, "name": "NVIDIA RTX A6000", "total_memory": 50897289216, "major": 8, "minor": 6, "multi_processor_count": 84}
+
+torch.__config__.show():
+PyTorch built with:
+  - GCC 9.3
+  - C++ Version: 201703
+  - Intel(R) oneAPI Math Kernel Library Version 2023.1-Product Build 20230303 for Intel(R) 64 architecture applications
+  - Intel(R) MKL-DNN v3.3.2 (Git Hash 2dc95a2ad0841e29db8b22fbccaf3e5da7992b01)
+  - OpenMP 201511 (a.k.a. OpenMP 4.5)
+  - LAPACK is enabled (usually provided by MKL)
+  - NNPACK is enabled
+  - CPU capability usage: AVX2
+  - CUDA Runtime 12.1
+  - NVCC architecture flags: -gencode;arch=compute_50,code=sm_50;-gencode;arch=compute_60,code=sm_60;-gencode;arch=compute_61,code=sm_61;-gencode;arch=compute_70,code=sm_70;-gencode;arch=compute_75,code=sm_75;-gencode;arch=compute_80,code=sm_80;-gencode;arch=compute_86,code=sm_86;-gencode;arch=compute_90,code=sm_90
+  - CuDNN 8.9.2
+  - Magma 2.6.1
+  - Build settings: BLAS_INFO=mkl, BUILD_TYPE=Release, CUDA_VERSION=12.1, CUDNN_VERSION=8.9.2, CXX_COMPILER=/opt/rh/devtoolset-9/root/usr/bin/c++, CXX_FLAGS= -D_GLIBCXX_USE_CXX11_ABI=0 -fabi-version=11 -fvisibility-inlines-hidden -DUSE_PTHREADPOOL -DNDEBUG -DUSE_KINETO -DLIBKINETO_NOROCTRACER -DUSE_FBGEMM -DUSE_QNNPACK -DUSE_PYTORCH_QNNPACK -DUSE_XNNPACK -DSYMBOLICATE_MOBILE_DEBUG_HANDLE -O2 -fPIC -Wall -Wextra -Werror=return-type -Werror=non-virtual-dtor -Werror=bool-operation -Wnarrowing -Wno-missing-field-initializers -Wno-type-limits -Wno-array-bounds -Wno-unknown-pragmas -Wno-unused-parameter -Wno-unused-function -Wno-unused-result -Wno-strict-overflow -Wno-strict-aliasing -Wno-stringop-overflow -Wsuggest-override -Wno-psabi -Wno-error=pedantic -Wno-error=old-style-cast -Wno-missing-braces -fdiagnostics-color=always -faligned-new -Wno-unused-but-set-variable -Wno-maybe-uninitialized -fno-math-errno -fno-trapping-math -Werror=format -Wno-stringop-overflow, LAPACK_INFO=mkl, PERF_WITH_AVX=1, PERF_WITH_AVX2=1, PERF_WITH_AVX512=1, TORCH_VERSION=2.2.0, USE_CUDA=ON, USE_CUDNN=ON, USE_EXCEPTION_PTR=1, USE_GFLAGS=OFF, USE_GLOG=OFF, USE_MKL=ON, USE_MKLDNN=ON, USE_MPI=OFF, USE_NCCL=ON, USE_NNPACK=ON, USE_OPENMP=ON, USE_ROCM=OFF, USE_ROCM_KERNEL_ASSERT=OFF, 
+
+
+===== Relevant environment variables =====
+CUDA_MODULE_LOADING=LAZY
+CUDA_VERSION=12.1.1
+LD_LIBRARY_PATH=/usr/local/nvidia/lib:/usr/local/nvidia/lib64
+NCCL_VERSION=2.17.1-1
+NVIDIA_DRIVER_CAPABILITIES=all
+NVIDIA_PRODUCT_NAME=CUDA
+NVIDIA_REQUIRE_CUDA=cuda>=12.1 brand=tesla,driver>=470,driver<471 brand=unknown,driver>=470,driver<471 brand=nvidia,driver>=470,driver<471 brand=nvidiartx,driver>=470,driver<471 brand=geforce,driver>=470,driver<471 brand=geforcertx,driver>=470,driver<471 brand=quadro,driver>=470,driver<471 brand=quadrortx,driver>=470,driver<471 brand=titan,driver>=470,driver<471 brand=titanrtx,driver>=470,driver<471 brand=tesla,driver>=525,driver<526 brand=unknown,driver>=525,driver<526 brand=nvidia,driver>=525,driver<526 brand=nvidiartx,driver>=525,driver<526 brand=geforce,driver>=525,driver<526 brand=geforcertx,driver>=525,driver<526 brand=quadro,driver>=525,driver<526 brand=quadrortx,driver>=525,driver<526 brand=titan,driver>=525,driver<526 brand=titanrtx,driver>=525,driver<526
+NVIDIA_VISIBLE_DEVICES=all
+PYTORCH_VERSION=2.2.0

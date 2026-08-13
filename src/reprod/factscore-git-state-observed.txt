@@ -1,0 +1,40 @@
+$ 
+    echo '===== path ====='
+    echo '/workspace/FActScore'
+    echo
+    git -C '/workspace/FActScore' rev-parse --is-inside-work-tree || exit 0
+    echo '===== HEAD ====='
+    git -C '/workspace/FActScore' rev-parse HEAD
+    echo '===== branch ====='
+    git -C '/workspace/FActScore' branch --show-current
+    echo '===== remotes ====='
+    git -C '/workspace/FActScore' remote -v
+    echo '===== status ====='
+    git -C '/workspace/FActScore' status --short
+    echo '===== submodules ====='
+    git -C '/workspace/FActScore' submodule status --recursive || true
+    
+===== path =====
+/workspace/FActScore
+
+true
+===== HEAD =====
+f28272deffcf33efc1f1117d5479c10bb75221a9
+===== branch =====
+main
+===== remotes =====
+origin	https://github.com/shmsw25/FActScore (fetch)
+origin	https://github.com/shmsw25/FActScore (push)
+===== status =====
+ M factscore/atomic_facts.py
+ M factscore/factscorer.py
+ M factscore/retrieval.py
+?? build_fts.py
+?? check_factscore.py
+?? debug.py
+?? download_llama7b.py
+?? factscore/llama_lm.py
+?? factscore/local_lm.py
+?? roberta_stopwords.txt.1
+?? roberta_stopwords.txt.2
+===== submodules =====

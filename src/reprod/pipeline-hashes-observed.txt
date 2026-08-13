@@ -1,0 +1,21 @@
+$ 
+for file in \
+    /workspace/2_sft.py \
+    /workspace/3_grpo.py \
+    /workspace/4_eval.py \
+    /workspace/2_sft_final.py \
+    /workspace/3_grpo_final.py \
+    /workspace/4_eval_final.py
+do
+    if [ -f "$file" ]; then
+        sha256sum "$file"
+        wc -l "$file"
+    fi
+done
+
+d5f8d4c6b1767101719cd3b522059b483e2f341dbf0665892634bc99ad6cb27d  /workspace/2_sft.py
+369 /workspace/2_sft.py
+b590965996458f2537a3e4d3e090bf4df3993e224a3b903b9b5e1245fbc91e75  /workspace/3_grpo.py
+2955 /workspace/3_grpo.py
+59a3547863050bed2db2ceb303762ed2ef0bf8c11ebd37d9bd34bfb646256c4e  /workspace/4_eval.py
+1486 /workspace/4_eval.py
