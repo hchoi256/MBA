@@ -30,8 +30,8 @@ This repository is a PyTorch official code of the paper [MBA: Multimodal Benchma
 
 ## News & Updates
   <!-- - [x] **[2026/06/18]** ✈️ Our paper is accepted to ECCV 2026! -->
-  - [O] **[2026/08/12]** 📝 Our paper is now available! The paper is released [here](https://arxiv.org/abs/2608.11616).
-  - [O] **[2026/08/12]** 🧑‍💻 Our code is released!
+  - [o] **[2026/08/12]** 📝 Our paper is now available! The paper is released [here](https://arxiv.org/abs/2608.11616).
+  - [o] **[2026/08/12]** 🧑‍💻 Our code is released!
 
 ## Table of Contents
 - [1. Environment Setting and Dataset Preparation](#1-environment-setting-and-dataset-preparation)
