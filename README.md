@@ -15,7 +15,7 @@
     <img src="https://img.shields.io/badge/arXiv%20paper-2603.14366-b31b1b.svg"
          alt="arXiv Paper">
   </a>
-  <a href="https://huggingface.co/hchoi256/mba/tree/main">
+  <a href="https://huggingface.co/papers/2608.11616">
     <img src="https://img.shields.io/badge/🤗-Hugging%20Face-FFD21E"
          alt="Hugging Face">
   </a>
@@ -63,7 +63,7 @@ The detailed design is described as a following figure:
 
 ## 1. Environment Setting and Dataset Preparation
 
-**MBA-Library** and **MBA-Bench** are available [🤗here](https://huggingface.co/hchoi256/mba/blob/main/mbabench.zip).
+**MBA-Library** and **MBA-Bench** are available [🤗here](https://huggingface.co/datasets/hchoi256/MBA-Bench).
 
 ### Environment Setting
 
