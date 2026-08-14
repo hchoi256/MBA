@@ -11,6 +11,10 @@
 <br/>
 
 <p align="center">
+  <a href="https://huggingface.co/spaces/hchoi256/mba-business-ideation-agent">
+    <img src="https://img.shields.io/badge/🚀-Interactive%20Demo-2ea44f"
+        alt="Interactive Demo">
+  </a>
   <a href="https://arxiv.org/abs/2608.11616">
     <img src="https://img.shields.io/badge/arXiv%20paper-2603.14366-b31b1b.svg"
          alt="arXiv Paper">
