@@ -1,3 +1,9 @@
+> ![Status](https://img.shields.io/badge/STATUS-UNDER%20REVISION-red)
+>
+> **🚧 Notice: Repository Under Revision**
+>
+> This repository currently contains an earlier version of MBA. The paper and codebase are undergoing substantial revisions. The repository will be updated with the latest implementation, datasets, and documentation upon publication.
+
 # MBA: Multimodal Benchmark and Agents for Real-World Business Ideation
 
 
