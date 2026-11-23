@@ -108,6 +108,11 @@ def match_annotation(ann_idx, sample_id):
 
 
 def discover_pairs(root):
+    # The DeepPCB repo also ships README figures (fig/) and annotation-tool
+    # examples (tools/); only PCBData/ holds the dataset's image pairs.
+    if (root / "PCBData").is_dir():
+        root = root / "PCBData"
+        print(f"[INFO] scanning dataset folder only: {root}")
     imgs = discover_images(root)
     ann_idx = build_annotation_index(root)
     grouped = defaultdict(lambda: {"image": [], "template": [], "unknown": []})
